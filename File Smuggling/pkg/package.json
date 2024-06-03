@@ -1,0 +1,14 @@
+{
+  "name": "smuggling",
+  "version": "0.1.0",
+  "files": [
+    "smuggling_bg.wasm",
+    "smuggling.js",
+    "smuggling.d.ts"
+  ],
+  "module": "smuggling.js",
+  "types": "smuggling.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
